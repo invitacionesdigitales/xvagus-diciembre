@@ -1,6 +1,8 @@
 * body {
     padding: 0;
     box-sizing: border-box;
+    background-image: url(./imagenes/FONDO.jpg);
+    background-size: 100%;
   
   }
   
@@ -174,7 +176,7 @@ margin-left: 68%;
               font-family: "Poppins", sans-serif;
        font-size: 18px;
        color: #6b6b6b;
-       margin-top: -160%;
+       margin-top: 10%;
   }
 .subtitulo{
       text-align: center;
@@ -244,11 +246,11 @@ margin-left: 68%;
     font-weight: 1200;
     border: none;
     color: rgb(255, 255, 255);
-    background-color: #68824d;
+    background-color: #c59ea4;
     border-radius: 7px;
     box-shadow: 1px 1px 30px -5px rgb(232, 248, 207);
     cursor: pointer;
-    margin-left: 41%;
+    margin-left: 31%;
     background-size: 120%;
     margin-top: 4%;
     background-image: url(./imagenes/brillo.gif);
@@ -283,11 +285,17 @@ margin-left: 68%;
     margin-right: auto;
     margin-top: -30;
   }
- .imguno{
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 5%;
- }
+
+ .regalo{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30;
+  }
+
+
+ 
   .imgdos{
   width: 70%;
   margin-left: 16%;
@@ -304,7 +312,52 @@ margin-left: 68%;
 
   }
   
-  
+  @keyframes deslizarZoom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.5); /* Empieza abajo y pequeña */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1); /* Llega a su posición y tamaño real */
+  }
+}
+/* 1. Hacemos que el contenedor centre sus elementos */
+.contenedor-centrado {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */
+  width: 100%;
+  min-height: 100vh;       /* Opcional: ocupa toda la altura de la pantalla */
+}
+
+/* 2. Tu imagen con la animación de zoom que te gustó */
+@keyframes agrandarEntrada {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.imguno {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  border: 3px solid #edb8d7aa;
+  box-shadow: 0 10px 25px rgba(173, 155, 94, 0.3);
+  animation: agrandarEntrada 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  transition: transform 0.3s ease;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.imguno:hover {
+  transform: scale(1.05);
+}
 
 .rsvp-form {
 
@@ -439,7 +492,7 @@ margin-left: 68%;
     font-family: 'Great Vibes', cursive;
      font-size: 40px;
      color: #6f846f;
-     margin-top: 5%;
+     margin-top: 15%;
     
      
  }
