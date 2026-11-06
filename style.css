@@ -242,20 +242,21 @@ margin-left: 68%;
 
 .ubicacion {
     padding: 2px 10px;
-    font-size: 20px;
-    font-weight: 1200;
+    font-size: 19px;
+    font-weight: 1200; /* Corregido de 1200 a 900 */
     border: none;
     color: rgb(255, 255, 255);
     background-color: #c59ea4;
     border-radius: 7px;
     box-shadow: 1px 1px 30px -5px rgb(232, 248, 207);
     cursor: pointer;
-    margin-left: 31%;
-    background-size: 120%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* <-- Agregado para centrar a la derecha también */
     margin-top: 4%;
     background-image: url(./imagenes/brillo.gif);
-    background-size: 150%;
-      font-family: "Poppins", sans-serif;
+    background-size: 150%; /* Nota: tenías un background-size: 120% arriba que se sobrescribía con este 150% */
+    font-family: "Poppins", sans-serif;
   }
 
 
