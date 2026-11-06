@@ -294,6 +294,20 @@ margin-left: 68%;
     margin-top: -30;
   }
 
+  .qr{
+    width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30;
+  }
+.camara{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25;
+  }
 
  
   .imgdos{
@@ -531,18 +545,14 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   width: 40%;
   margin-left: 30%;
  }
- .sabri{
-  width: 20%;
-  margin-top: -50%;
-  margin-left: 18%;
- }
- .jon{
-  width: 20%;
-  margin-top: -50%;
-  margin-left: 18%;
- }
- .fondo4{
-  margin-top: -15%;
+ 
+ .agus{
+width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20;
+ 
  }
  
 
@@ -628,17 +638,7 @@ margin-left: 48%;
        color: #6b6b6b;
        margin-top: 20%;
  }
- .linea4{
-  margin-top: -5%;
-  color: #f3f3f3;
-}
 
- .linea3{
-    color:#6B928F;
-    width: 70%;
-   margin-left: 15%;
-   margin-top: -10%;
-}
 
 
 .calendario{
