@@ -93,7 +93,7 @@ boton.addEventListener("click", () => {
       icon: 'success',
       html:
         'INGRESÁ' +
-        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.09835207006!2d-68.5851663!3d-31.631157399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96813ee4b75ffe13%3A0x7ce40081ae85461d!2sSalon%20Peumayen%20Eventos!5e0!3m2!1ses!2sar!4v1793746568957!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>' +
+        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.2411198286645!2d-62.85825102459845!3d-33.15529618245711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cecbfb63f10c7d%3A0x2053aa0f57648792!2sCENTRO%20DE%20JUBILADOS%20Y%20PENSIONADOS%20DE%20LABORDE!5e0!3m2!1ses!2sar!4v1793973218164!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>' +
         'Podes ampliar el mapa',
         
         
